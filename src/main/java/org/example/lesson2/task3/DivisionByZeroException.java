@@ -1,4 +1,4 @@
-package org.example.task3;
+package org.example.lesson2.task3;
 
 public class DivisionByZeroException extends Exception{
     private int number;

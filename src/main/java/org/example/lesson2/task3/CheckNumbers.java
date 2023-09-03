@@ -1,11 +1,11 @@
-package org.example.task3;
+package org.example.lesson2.task3;
 
 import java.util.Scanner;
 
 public class CheckNumbers {
-    public static double checkNumbers(int firstNumber, int secondNumber, int thirdNumber) throws org.example.task3.DivisionByZeroException, NumberOutOfRangeException, NumberSumException {
+    public static double checkNumbers(int firstNumber, int secondNumber, int thirdNumber) throws DivisionByZeroException, NumberOutOfRangeException, NumberSumException {
         if (firstNumber > 100) {
-            throw new org.example.task3.NumberOutOfRangeException("First number out of range.", firstNumber);
+            throw new NumberOutOfRangeException("First number out of range.", firstNumber);
         } else if (secondNumber < 0){
             throw new NumberOutOfRangeException("Second number out of range.", secondNumber);
         } else if ((firstNumber + secondNumber) < 10){

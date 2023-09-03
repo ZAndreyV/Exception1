@@ -1,4 +1,4 @@
-package org.example.task1;
+package org.example.lesson2.task1;
 
 public class InvalidNumberException extends Exception{
     private int digit;
